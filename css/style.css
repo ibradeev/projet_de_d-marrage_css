@@ -1,0 +1,80 @@
+/* 2. Styliser le body (famille et taille de la police) */
+body {
+    font-family: 'Verdana', sans-serif; /* Choix d'une police moderne */
+    font-size: 18px;                    /* Taille par défaut de la police */
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;                   /* Espacement entre les lignes */
+    background-color: #e0f7fa;          /* Couleur de fond douce pour l'ensemble de la page */
+}
+
+/* 3. Styliser le header (couleur d'arrière-plan) */
+header {
+    background-color: #00796b;          /* Couleur d'arrière-plan du header */
+    color: white;                       /* Couleur du texte dans le header */
+    padding: 20px;                      /* Espacement autour du contenu */
+    text-align: center;                 /* Centrer le contenu du header */
+}
+
+/* 4. Styliser le nav (couleur d'arrière-plan) */
+nav {
+    background-color: #004d40;          /* Couleur d'arrière-plan du menu de navigation */
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;                   /* Supprimer les puces de la liste */
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;                    /* Affichage des éléments de navigation sur une seule ligne */
+    margin-right: 20px;                /* Espacement entre les éléments */
+}
+
+nav ul li a {
+    color: #b2dfdb;                     /* Couleur des liens dans la navigation */
+    text-decoration: none;
+    transition: color 0.3s;            /* Effet de transition pour les changements de couleur */
+}
+
+nav ul li a:hover {
+    color: #ffffff;                     /* Changement de couleur au survol */
+}
+
+/* 5. Styliser le main (couleur d'arrière-plan et taille de police) */
+main {
+    background-color: #ffffff;          /* Couleur d'arrière-plan du contenu principal */
+    font-size: 18px;                    /* Taille de la police du contenu principal */
+    padding: 20px;
+    border-radius: 8px;                 /* Arrondir les coins du conteneur */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Ombre portée */
+}
+
+/* 6. Styliser le footer (couleur d'arrière-plan) */
+footer {
+    background-color: #00796b;          /* Couleur d'arrière-plan du footer */
+    color: white;                       /* Couleur du texte dans le footer */
+    text-align: center;                 /* Centrer le texte */
+    padding: 10px 0;
+}
+
+/* 7. Styliser les éléments de liste (li) */
+li {
+    display: inline-block;              /* Affichage en bloc sur une seule ligne */
+    width: auto;                        /* Largeur des éléments de liste */
+}
+
+/* 8. Styliser les titres h1 (alignement, police, couleur) */
+h1 {
+    text-align: center;                 /* Centrer le texte */
+    font-family: 'Arial Black', sans-serif; /* Choisir une police audacieuse */
+    color: #004d40;                     /* Couleur du texte */
+    margin-bottom: 20px;                /* Espace en dessous du titre */
+}
+
+/* 9. Styliser les paragraphes (hauteur de ligne) */
+p {
+    line-height: 1.6;                   /* Hauteur de ligne pour espacer les paragraphes */
+    margin-bottom: 15px;                /* Espacement entre les paragraphes */
+}
